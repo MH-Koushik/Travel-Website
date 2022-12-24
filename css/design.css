@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* nav part End */
+nav{
+    position: absolute;
+    margin-top: 25px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav .nav-box{
+    display: flex;
+    width: 100%;
+    left: 0;
+}
+nav .left{
+    width: 20%;
+}
+nav .left{
+   color: white;
+   font-size: 24px;
+   font-weight: 700;
+   font-family: 'Open Sans', sans-serif;
+   cursor: pointer;
+}
+
+nav .middle{
+    width: 60%;
+}
+nav .middle ul{
+    display: flex;
+    justify-content: center;
+}
+nav .middle ul li a{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 7px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    transition: .4s;
+    cursor: pointer;
+}
+nav .middle ul li a:hover{
+    color: aqua;
+}
+nav .right{
+    width: 20%;
+    text-align: right;
+}
+nav .right a{
+    display: inline-block;
+    margin-top: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+nav .right a i{
+    margin-right: 20px;
+}
+
+/* nav part End */
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* banner part start*/
+#banner-part{
+    padding-top: 465px;
+    padding-bottom: 460px;
+    background: url(../images/banner-background.png) no-repeat center;
+    background-size: cover;
+}
+#banner-part .banner-box h5{
+    color: #FFC178;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+#banner-part .banner-box h1{
+    color: white;
+    font-size: 85px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+#banner-part .banner-box h3{
+    color: white;
+    font-size: 85px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+/* banner part END*/
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* second part start*/
+#second-part{
+    background: #000000;
+}
+#second-part .second-part-box{
+    display: flex;
+    padding-top: 174px;
+    padding-bottom: 143px;
+}
+#second-part .image{
+    width: 50%;
+}
+#second-part .text{
+    width: 50%;
+    margin-top: 70px;
+}
+#second-part .text h4{    
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+#second-part .text h1{  
+    width: 496px;  
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+#second-part .text p{  
+    width: 587px;  
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    line-height: 32px;
+    margin-top: 13px;
+}
+
+#second-part .text a{
+    display: inline-block;
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 66px;
+    text-transform: uppercase;
+}
+/* second part END*/
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* Third part start*/
+#third-part{
+    background: #000000;
+}
+#third-part .third-part-box{
+    display: flex;
+    padding-top: 143px;
+    padding-bottom: 100px;
+}
+#third-part .text{
+    width: 50%;
+    margin-top: 155px;
+    text-align: left;
+}
+#third-part .image{
+width: 50%;
+}
+#third-part .text h4{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+#third-part .text h1{
+    width: 90%;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+#third-part .text p{  
+    width: 80%;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    line-height: 32px;
+    margin-top: 13px;
+}
+#third-part .text a{ 
+    display: inline-block;
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 47px;
+}
+
+/* Third part END*/
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* Footer part start*/
+
+#footer-part{
+    background: black
+}
+#footer-part .footer-part-box{
+    padding-top: 100px;
+    padding-bottom: 41px;
+}
+#footer-part .footer-top-part{
+    display: flex;
+}
+#footer-part .footer-top-part .left{
+    width: 50%;
+}
+#footer-part .footer-top-part .left h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+}
+#footer-part .footer-top-part .right{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+#footer-part .footer-top-part .right h3{
+    margin-top: 20px;
+    margin-right: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+#footer-part .footer-top-part .right a{
+    display: inline-block;
+    padding: 18px 67px;
+    background: #FFA343;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: .4s;
+}
+#footer-part .footer-top-part .right a:hover{
+    background: aqua;
+    color: #000000;
+}
+#footer-part .footer-middle-part .left{
+    width: 50%;
+}
+#footer-part .footer-middle-part{
+    display: flex;
+    margin-top: 82px;
+}
+#footer-part .footer-middle-part .left h1{
+    width: 405px;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#footer-part .footer-middle-part .left .ancor-part{
+    width: 70%;
+    display: flex;
+}
+#footer-part .footer-middle-part .left .ancor-part a{
+    display: inline-block;
+    width: 405px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 49px;
+
+}
+
+#footer-part .footer-middle-part .right{
+    display: flex;
+    width: 50%;
+}
+#footer-part .footer-middle-part .right ul li{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+#footer-part .footer-middle-part .right ul li h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFD1A0;
+    font-family: 'Open Sans', sans-serif;
+}
+#footer-part .footer-middle-part .right ul li a{
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+#footer-part .footer-part-box .footer-bottom-part{
+    margin-top: 150px;
+    text-align: center;
+}
+#footer-part .footer-bottom-part .icon a{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#footer-part .footer-bottom-part h1{
+    margin-top: 70px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Footer part END*/
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
